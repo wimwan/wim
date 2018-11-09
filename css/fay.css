@@ -1,0 +1,284 @@
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		body{
+			background-color: lightgray;
+			font-family: "微软雅黑";
+		}
+		a{
+			text-decoration: none;
+		}
+		div{
+			border: 1px solid black;
+			
+		}
+		.logo{
+			width: 100%;
+			height: 100px;
+			background-color: lightseagreen;
+			text-align: center;
+			line-height: 100px;
+		}
+		.logo1{
+			color: white;
+			font-family: "微软雅黑";
+			font-size: 50px;
+			font-weight: 200;
+			background-color: lightseagreen;
+			transition: all 0.1s linear;
+		}
+		.logo2{
+			color: white;
+			font-family: "微软雅黑";
+			font-size: 24px;
+			font-weight: 700;
+			background-color: lightseagreen;
+			transition: all 0.5s linear;
+		}
+		.logo:hover .logo1{
+			letter-spacing: 5px;
+		}
+		.logo:hover .logo2{
+			opacity: 0.2;
+		}
+		.nav{
+			width: 100%;
+			height: 50px;
+			background-color: darkslategray;
+		}
+		.gonggao{
+			width: 1200px;
+			height: 35px;
+			margin: auto;
+			line-height: 35px;
+			background-color: white;
+		}
+		ul{
+			width: 1200px;
+			height: 50px;
+			display: block;
+			margin: auto;
+			line-height: 50px;
+		}
+		.bodys{
+			width: 1200px;
+			height: 1625px;
+			margin: auto;
+			margin-top: 10px;
+			margin-bottom: 5px;
+		}
+		.foot{
+			width: 100%;
+			height: 60px;
+		}
+		.foot1{
+			width: 100%;
+			height: 5px;
+			background-color: lightgray;
+		}
+		.foot2{
+			width: 100%;
+			height: 5px;
+			background-color: #3CB371;
+		}
+		.foot3{
+			width: 100%;
+			height: 50px;
+			background-color: #474747;
+		}
+		.body1{
+			width: 795px;
+			height: 1625px;
+			float: left;
+		}
+		.body2{
+			width: 390px;
+			height: 1625px;
+			float: left;
+			margin-left: 10px;
+		}
+		.lunbo{
+			width: 795px;
+			height: 300px;
+		}
+		.lunbo1{
+			width: 130px;
+			height: 300px;
+			float: left;
+		}
+		.lunbo2{
+			width: 650px;
+			height: 300px;
+			margin-left: 10px;
+			float: left;
+			overflow: hidden;
+		}
+		.lunbo21{
+			width: 2600px;
+			height: 300px;
+		}
+		.navp{
+			width: 650px;
+			height: 300px;
+			float: left;
+			animation: move 16s linear infinite 0.5s;
+		}
+		@keyframes move{
+			from{transform: translateX(0px);}
+			to{transform: translateX(-1950px);}	
+		}	
+		.lunbo11,.lunbo12,.lunbo13{
+			width: 130px;
+			height: 70px;
+			margin-bottom: 5px;
+			background-color: whitesmoke;
+		}
+		.lunbo14{
+			width: 130px;
+			height: 70px;
+			background-color: whitesmoke;
+		}
+		.cont{
+			width: 795px;
+			height: 200px;
+			margin-bottom: 5px;
+			background-color: whitesmoke;
+		}
+		.choice{
+			width: 795px;
+			height: 80px;
+			background-color: whitesmoke;
+		}
+		.share{
+			width: 390px;
+			height: 50px;
+			margin-bottom: 5px;
+			background-color: whitesmoke;
+		}
+		.email{
+			width: 390px;
+			height: 120px;
+			margin-bottom: 5px;
+			background-color: whitesmoke;
+		}
+		.email1{
+			width: 350px;
+			height: 100px;
+			margin-left: 20px;
+			margin-top: 10px;
+			background-color: whitesmoke;
+		}
+		.category{
+			width: 390px;
+			height: 150px;
+			margin-bottom: 5px;
+			background-color: whitesmoke;
+		}
+		.tag{
+			width: 390px;
+			height: 250px;
+			margin-bottom: 5px;
+			background-color: whitesmoke;
+		}
+		.recent{
+			width: 390px;
+			height: 250px;
+			margin-bottom: 5px;
+			background-color: whitesmoke;
+		}
+		.hot{
+			width: 390px;
+			height: 300px;
+			margin-bottom: 5px;
+			background-color: whitesmoke;
+		}
+		.reader{
+			width: 390px;
+			height: 50px;
+			margin-bottom: 5px;
+			background-color: whitesmoke;
+		}
+		.comment{
+			width: 390px;
+			height: 100px;
+			margin-bottom: 5px;
+			background-color: whitesmoke;
+		}
+		.li1,.li7{
+			float: left;
+			list-style: none;
+			display: block;
+			width: 80px;
+			text-align: center;
+			background-color: lightseagreen;
+			color: whitesmoke;
+			margin-right: 1px;
+		}
+		.li2,.li3,.li4,.li5,.li6{
+			float: left;
+			list-style: none;
+			display: block;
+			width: 80px;
+			text-align: center;
+			color: whitesmoke;
+			margin-right: 1px;
+		}
+		.li8{
+			float: right;
+			list-style: none;
+		}
+		.li2:hover {background-color: lightseagreen;}
+		.li3:hover {background-color: lightseagreen;}
+		.li4:hover {background-color: lightseagreen;}
+		.li5:hover {background-color: lightseagreen;}
+		.li6:hover {background-color: lightseagreen;}
+		.laba{
+			margin-left: 20px;
+			position: relative;
+			bottom: -2px;
+		}
+		.gg{
+			color: gray;
+			font-size: 14px;
+		}
+		.logind{
+			float: right;
+			color: lightseagreen;
+			font-size: 14px;
+			margin-right: -30px;
+		}
+		.loginp{
+			display: inline-block;
+			position: relative;
+			top: 2px;
+		}
+		hr{
+			margin-top: 8px;
+			margin-bottom: 8px;
+			color: lightseagreen;
+		}
+		.email2{color: lightseagreen;}
+		.email3{
+			color: dimgrey;
+			font-size: 12px;
+		}
+		input{
+			width: 260px;
+			height: 30px;
+			background-color: lightgray;
+			font-size: 14px;
+			margin-top: 8px;
+			border: 0px;
+			padding-left: 5px;
+		}
+		.email4{
+			width: 80px;
+			height: 30px;
+			background-color: lightseagreen;
+			font-size: 14px;
+			color: white;
+			position: relative;
+			top: -0.5px;
+			border: 0px;
+		}
